@@ -31,11 +31,11 @@ function prependCat(name) {
 }
 
 function removeLastCat(){
-    var catts= cats.slice(0,cats.length-1);
-    return catts;
+    var cats= cats.slice(0,cats.length-1);
+    return cats;
   }
 
   function removeFirstCat(){
     var catss= cats.slice(1);
-    return catss;
+    return cats;
   }
