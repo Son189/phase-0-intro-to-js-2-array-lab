@@ -32,10 +32,13 @@ function prependCat(name) {
 
 function removeLastCat(){
     var cats= cats.slice(0,cats.length-1);
-    return cats;
-  }
-
+    console.log("Original:",cats);
+    console.log ("new",cats);
+    console.log(cats);
+}
   function removeFirstCat(){
-    var catss= cats.slice(1);
+ var cats= cats.slice(0);
     return cats;
-  }
+    cats.slice(0);
+ 
+}
